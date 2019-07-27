@@ -21,5 +21,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="..\x64\Release\LSB bank.sf2" />
+    <None Include="..\x64\Release\MSB bank.sf2" />
+    <None Include="..\x64\Release\MT-32.sf2" />
   </ItemGroup>
 </Project>
