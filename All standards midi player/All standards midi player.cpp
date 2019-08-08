@@ -55,8 +55,8 @@ int main(int argc, char** argv)
 
 	soundfonts[0] = BASS_MIDI_FontInit(string(resources_path + "LSB bank.sf2").c_str(), NULL);
 	cout << BASS_ErrorGetCode() << endl;
-	BASS_MIDI_FontSetVolume(soundfonts[0], 1.25f);
-	cout << BASS_ErrorGetCode() << endl;
+	//BASS_MIDI_FontSetVolume(soundfonts[0], 1.25f);
+	//cout << BASS_ErrorGetCode() << endl;
 
 	soundfonts[1] = BASS_MIDI_FontInit(string(resources_path + "MSB bank.sf2").c_str(), BASS_MIDI_FONT_XGDRUMS);
 	cout << BASS_ErrorGetCode() << endl;
